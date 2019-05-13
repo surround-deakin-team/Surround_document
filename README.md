@@ -1,7 +1,5 @@
 # Surround_document
 For better understanidng of surround
-# sundararaman.github.io
-Document for surround
 # Surround AI
 Surround AI  is the python framework which is designed for flexible usage in Artificial Intelligence(AI). It is designed to support data scientist in their progress. Each and every scientist use different algorithm to solve different problems. There are no standard way for them to analyse altogether in a single module. To provide a standard solution surround frame work is built. Evolution of machine learning pipeline  is not possible without re-constructing the coding whereas surround package will provide a pipeline without any alterations.
 
@@ -29,6 +27,7 @@ Developing a pipeline for the surround module using machine learning algorithms.
 After installation of surround using pip3
 * **Type** surround -h
 * You can see list of help option in surround with **commands** 
+
 ![Surround_help](https://github.com/sundararaman9608/sundararaman.github.io/blob/surround/Surround%20help1.PNG)
 
 

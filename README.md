@@ -23,9 +23,9 @@ Developing a pipeline for the surround module using machine learning algorithms.
 
 2.) Pip3 is installed in your system by default when you install Python.
 
-3.)Sepath in Environment variables for python 3.6.5.
+3.) Setpath in Environment variables for python 3.6.5.
 
-4.)Open command prompt.
+4.) Open command prompt.
 
 5.) Type python to ensure that python is successfully installed in your system.
 

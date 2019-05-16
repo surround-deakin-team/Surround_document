@@ -48,7 +48,8 @@ Developing a pipeline for the surround module using machine learning algorithms.
 
 ![editing 2](https://user-images.githubusercontent.com/48539509/57824909-fbf41300-77df-11e9-95db-449085910721.jpg)
   
-then path is set for python and move on next step.
+Path is set for python and move on next step.
+
 4.) Open command prompt.
 
 5.) Type python to ensure that python is successfully installed in your system.

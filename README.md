@@ -76,6 +76,15 @@ To install surround in mac follow first three steps similar as windows that are 
 
 1.) Open Terminal and type !pip3 install surround.
 
+![pyhrb](https://user-images.githubusercontent.com/48539509/57827774-17651b00-77ec-11e9-8640-33b6bf284b01.png)
+
+1.) Open Terminal and type !pip3 install surround.
+
+![mac](https://user-images.githubusercontent.com/48539509/57827791-22b84680-77ec-11e9-9d95-69eabe5b017c.png)
+
+2. surround sucessfully installed in mac. To ensure type surround -h.
+
+![mac insatll](https://user-images.githubusercontent.com/48539509/57827784-1e8c2900-77ec-11e9-88fc-b32b0667f5a3.png)
 
 # How to create a project
 After installation of surround using pip3

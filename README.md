@@ -72,6 +72,10 @@ It successfully installed in windows.
 
 ## Mac:-
 
+To install surround in mac follow first three steps similar as windows that are installing python3 and setting environment path.
+
+1.) Open Terminal and type !pip3 install surround.
+
 
 # How to create a project
 After installation of surround using pip3

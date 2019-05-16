@@ -23,7 +23,7 @@ Developing a pipeline for the surround module using machine learning algorithms.
 
 2.) Pip3 is installed in your system by default when you install Python.
 
-3.) Setpath in Environment variables for python 3.6.5. There are some steps and essential screenshots are provided for setting paths for python:-
+3.) Set path in Environment variables for python 3.6.5. There are some steps and essential screenshots are provided for setting paths for python:-
 
   3.1) Open the properties of your system by right clicking on This Pc.
        
@@ -47,7 +47,8 @@ Developing a pipeline for the surround module using machine learning algorithms.
 
 
 ![editing 2](https://user-images.githubusercontent.com/48539509/57824909-fbf41300-77df-11e9-95db-449085910721.jpg)
-
+  
+then path is set for python and move on next step.
 4.) Open command prompt.
 
 5.) Type python to ensure that python is successfully installed in your system.

@@ -37,6 +37,8 @@ After installation of surround using pip3
 
 ![Surround_init](https://github.com/sundararaman9608/sundararaman.github.io/blob/surround/project_created.PNG)
 
+[**Note:** the project name should be lowercase.]
+
 # Sample for Surround using Yolo 9000:
 ## Yolo 9000
 > Yolo is the object detection system on a Pascal Titan X it processes images at 30 FPs and has a map of 57.9%. It can identify more than 9000 objects using image net classification and COCO detection dataset. 

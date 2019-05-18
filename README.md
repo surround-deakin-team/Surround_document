@@ -39,6 +39,15 @@ After installation of surround using pip3
 
 [**Note:** the project name should be lowercase.]
 
+# Built in files
+After creating a surround project. List of files are genrated as built in.
+They are:
+-  \_init\_
+- \_main\_
+- \_stages\_
+- Wrapper
+- config.yaml
+
 # Sample for Surround using Yolo 9000:
 ## Yolo 9000
 > Yolo is the object detection system on a Pascal Titan X it processes images at 30 FPs and has a map of 57.9%. It can identify more than 9000 objects using image net classification and COCO detection dataset. 

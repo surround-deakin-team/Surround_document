@@ -138,7 +138,7 @@ They are:
 During the installation process after typing pip3 install surround it throws an syntax error. Can anyone help?
 
 ### Screenshot: This is my syntax error.
-![Pip not recognised](https://github.com/kumar1996abhinay/abhinaykumar.github.io/blob/master/1.png)
+![Pip not recognised](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/FAQ1.PNG)
 
 ### Solution
 Probably the path for pip3 is not set in your system. Just find the pip3 in your system. If it is not available just reinstall your python 3. Since, it has pip3 by default. Then retry the pip3 install surround without using ‘!’ in front of the command. 

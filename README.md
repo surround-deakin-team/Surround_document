@@ -154,6 +154,43 @@ After typing the  pip3 install surround it shows an invalid syntax. I have set p
 ### Solution
 Don’t give the !pip3 install surround inside python. Just set the path for the pip and type pip3 install surround in the command prompt itself.
 
+## Query 3
+When I was creating a project name, I would like to give the name as yolo_9000 and I am unable to create it, also tried with different name as YOLO9000, it was given in uppercase letters, underscore, and space and also alphanumeric.
+
+![FAQ3](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/Query3.PNG)
+
+
+## Solution: 
+
+In surround, the project name must be only in lowercase letters without inclusion of any numbers, underscore and space in it.
+
+![FAQ3 solution](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/Query3%20soln.PNG)
+
+## Query 4
+Issues while installing surround in MAC, I am not able to install surround and unable to set a path
+
+![FAQ4](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/Query4.jpg)
+
+## Solution: 
+
+Python path should be set with this packages:
+
+`PYTHONPATH="/usr/local/lib/python3.7/site-packages:$PYTHONPATH"`
+
+`export PYTHONPATH`
+
+To cross check
+
+1. python3
+
+2. import surround
+
+3. surround.__file_
+
+Do restart your terminal and if you still get the same error please do restart your system.
+
+![FAQ4 soln](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/Query4%20soln.jpg)
+
 # Conclusion:
 Surround is under development which as goals to satisfy the needs of data scientists. It completely turns the view of analysing in machine learning and other concepts of AI(Artificial Intelligence).
 

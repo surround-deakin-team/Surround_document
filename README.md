@@ -2,7 +2,47 @@
 For better understanidng of surround
 # Surround AI
 Surround AI  is the python framework which is designed for flexible usage in Artificial Intelligence(AI). It is designed to support data scientist in their progress. Each and every scientist use different algorithm to solve different problems. There are no standard way for them to analyse altogether in a single module. To provide a standard solution surround frame work is built. Evolution of machine learning pipeline  is not possible without re-constructing the coding whereas surround package will provide a pipeline without any alterations.
+**There were problems that where addressed at Applied Artificial Intelligence Institute:**
 
+ 1. There were same changes required to refactor code again and again,  
+    which was written by data scientist to make it ready for implement. 
+    That means there was no standard script, no proper way to handle   
+    configuration and no standard pipeline architecture.
+ 2. The models which are existing are serving the model rather than
+    end-to-end solution. The model needs to me clubbed with multiple
+    models and glue code to tie these models together.
+ 3. Existing models don’t allow for the evolution of a machine learning
+    pipeline without re-engineering the solution. Ex: using a cloud API
+    for the first release before training a custom model much later.
+ 4. Code was commonly being commented out to run other branches.
+
+# Flow-diagram
+Here are some components in the library that one can use to build Surround AI solutions.
+
+## Components
+
+ - Surround A group of many stages or maybe it can be one stage only,
+   helps to transform the data into more meaningful and explainable
+   data. You can set orders of stages directly on your implementation or   you may use configuration file. Configuration file allows you to
+   define more than 1 pipeline implementation and then you can switch between them effortlessly.
+ - Surround Data A sharable object between stages that holds necessary information for each stage. A stage will read some information from Surround Data then will process it and as rend result will put back new information that will be used by other stage or multiple stages.
+ 
+ - In Surround, when you extend classes, you can add as many variables as you need to help you transform input data into output data. But note that there are **four** core variables that are ready for you to utilise.
+	
+**stage_metadata:** it is information that can be used to identify a stage.
+
+**execution_time:** it is recorded time to complete a process.
+
+**errors:** it is information to identify failure of a stage.
+
+**warnings:** warnings are information when transformation is not 100% correct.
+
+ - Stage an implementation of data transformation. Here is where
+   **Surround Data** is modified to archive the result that you need. Each stage is only aimed to perform a set of related actions. In
+   stage one where you prepare data to be processed and last stage can
+   be where your populated data to be sent back to user.
+
+**Operate** is a function that you need to override when you extend stage class. It must contain data transformation implementation.
 # Why surround?
 * It is designed to support data scientist in their progress.
 *  Each and every scientist use different algorithm to solve different problems. There are no standard way for them to analyse altogether in a single module.

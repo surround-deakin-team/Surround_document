@@ -54,7 +54,8 @@ Path is set for python and move on next step.
 
 5.) Type python to ensure that python is successfully installed in your system.
 
-![Capture3](https://user-images.githubusercontent.com/48539509/57619548-831b6e00-75c9-11e9-9beb-b8ec1c05f372.PNG)
+![ensure python installed](https://user-images.githubusercontent.com/48539509/58065978-e8272300-7bca-11e9-99eb-233c9388ee94.PNG)
+
 
 6.) Then type exit() to get out from python environment.
 
@@ -66,7 +67,8 @@ Path is set for python and move on next step.
 
 9.) To ensure type surround –h. It shows all necessary commands of surround.
 
-![query solved3](https://user-images.githubusercontent.com/48539509/57619890-71869600-75ca-11e9-84a4-46708f3382f1.PNG)
+![surround](https://user-images.githubusercontent.com/48539509/58065988-efe6c780-7bca-11e9-8151-52bb8b9b295b.PNG)
+
 
 It successfully installed in windows.
 
@@ -75,7 +77,7 @@ It successfully installed in windows.
 To install surround in mac follow first three steps similar as windows that are installing python3 and setting environment path.
 
 
-![pyhrb](https://user-images.githubusercontent.com/48539509/57827774-17651b00-77ec-11e9-8640-33b6bf284b01.png)
+![python install](https://user-images.githubusercontent.com/48539509/58065981-eb221380-7bca-11e9-8004-80e6f543e082.png)
 
 1.) Open Terminal and type !pip3 install surround.
 

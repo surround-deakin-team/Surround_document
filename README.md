@@ -148,7 +148,7 @@ Probably the path for pip3 is not set in your system. Just find the pip3 in your
 After typing the  pip3 install surround it shows an invalid syntax. I have set path to python and pip as well then also it shows the same error.
 
 ### Screenshot: Error in syntax
-![Invalid syntax](https://github.com/kumar1996abhinay/abhinaykumar.github.io/blob/master/2.png)
+![Invalid syntax](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/faq2.png)
 
 ### Solution
 Don’t give the !pip3 install surround inside python. Just set the path for the pip and type pip3 install surround in the command prompt itself.

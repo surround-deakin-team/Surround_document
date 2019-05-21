@@ -92,8 +92,7 @@ After installation of surround using pip3
 * **Type** surround -h
 * You can see list of help option in surround with **commands** 
 
-![Surround_help](https://github.com/sundararaman9608/sundararaman.github.io/blob/surround/Surround%20help1.PNG)
-
+![Surround_help](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/Surround%20help1.PNG)
 
 ## create a project
 * **Type** surround init

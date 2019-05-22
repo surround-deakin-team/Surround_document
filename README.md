@@ -111,10 +111,14 @@ There will be some files created as you install surround. Some default files tha
 To create a new file for surround can be explained in few simple steps:
 
 **Step 1:** Just jump to “Command Prompt” after successful installation of surround into system, move to your choose surround directory and hit these commands.
+
+
 [**Note:** the project name should be lowercase.]
 ![to create a new file for surround](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/step1.png)
 
 **Step 2:** After performing “surround init” command it will ask for **name of project** and **what is the purpose of this project?**
+
+
 ![providing project details](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/step2.png)
 
 
@@ -134,7 +138,7 @@ They are:
 - Wrapper
 - config.yaml
 
-**Understanding of Files and Folders:**
+## **Understanding of Files and Folders:**
 
 There are mainly four files generated and those four files are as below:
 

@@ -2,6 +2,8 @@
 For better understanidng of surround
 # Surround AI
 Surround AI  is the python framework which is designed for flexible usage in Artificial Intelligence(AI). It is designed to support data scientist in their progress. Each and every scientist use different algorithm to solve different problems. There are no standard way for them to analyse altogether in a single module. To provide a standard solution surround frame work is built. Evolution of machine learning pipeline  is not possible without re-constructing the coding whereas surround package will provide a pipeline without any alterations.
+
+
 **There were problems that where addressed at Applied Artificial Intelligence Institute:**
 
 1. There were same changes required to refactor code again and again, which was written by data scientist to make it ready for implement. That means there was no standard script, no proper way to handle configuration and no standard pipeline architecture.
@@ -25,7 +27,9 @@ using glue codes for their research.
 Using cloud API for training models for image recognition.
 Developing a pipeline for the surround module using machine learning algorithms.
 # Surround Working
+
 # Installation guide:
+
 ## Windows
 1.) Install the python 3.7.3 in the system  by following the provided link that is given below [https://www.python.org/downloads/](https://www.python.org/downloads/)	
 
@@ -96,8 +100,8 @@ To install surround in mac follow first three steps similar as windows that are 
 ![mac insatll](https://user-images.githubusercontent.com/48539509/57827784-1e8c2900-77ec-11e9-88fc-b32b0667f5a3.png)
 
 
-## Working of Surround:
-
+# Working of Surround:
+****
 **_Pre-created files:_**
 
 There will be some files created as you install surround. Some default files that are generated are listed as below:
@@ -121,7 +125,7 @@ To create a new file for surround can be explained in few simple steps:
 **Step 4:** You can see that a folder name yolosample is created into this project. This folder contains some pre-created files that will look like this:
 ![pre-generated files ](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/step4.png)
 
-# Built in files
+## Built in files
 After creating a surround project. List of files are genrated as built in.
 They are:
 -  \_init\_

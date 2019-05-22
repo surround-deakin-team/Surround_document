@@ -87,20 +87,31 @@ To install surround in mac follow first three steps similar as windows that are 
 
 ![mac insatll](https://user-images.githubusercontent.com/48539509/57827784-1e8c2900-77ec-11e9-88fc-b32b0667f5a3.png)
 
-# How to create a project
-After installation of surround using pip3
-* **Type** surround -h
-* You can see list of help option in surround with **commands** 
 
-![Surround_help](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/Surround%20help1.PNG)
+## Working of Surround:
 
-## create a project
-* **Type** surround init
-* Enter the project name and enter the purpose of the project
+**_Pre-created files:_**
 
-![Surround_init](https://github.com/sundararaman9608/sundararaman.github.io/blob/surround/project_created.PNG)
+There will be some files created as you install surround. Some default files that are generated are listed as below:
 
+**_Creating New File:_**
+
+To create a new file for surround can be explained in few simple steps:
+
+**Step 1:** Just jump to “Command Prompt” after successful installation of surround into system, move to your choose surround directory and hit these commands.
 [**Note:** the project name should be lowercase.]
+![to create a new file for surround](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/step1.png)
+
+**Step 2:** After performing “surround init” command it will ask for **name of project** and **what is the purpose of this project?**
+![providing project details](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/step2.png)
+
+
+**Step 3:** Now when user is done with creating project, user can go the respective directory where a folder with specified project name will be created. That folder will contain files like this:
+
+![created files](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/step3.png)
+
+**Step 4:** You can see that a folder name yolosample is created into this project. This folder contains some pre-created files that will look like this:
+![pre-generated files ](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/step4.png)
 
 # Built in files
 After creating a surround project. List of files are genrated as built in.
@@ -110,6 +121,18 @@ They are:
 - \_stages\_
 - Wrapper
 - config.yaml
+
+**Understanding of Files and Folders:**
+
+There are mainly four files generated and those four files are as below:
+
+**_init_:** It contains initialization and path where the project will be execuited.
+**_main_:**  This file contains all the imported files and output is execuited through this.
+
+**_stages_:** In this file user can define one or more than one stages the user want to process for it. 
+
+**_wrapper_:** In this file functions are imported from stages and surround.
+
 
 # Sample for Surround using Yolo 9000:
 ## Yolo 9000

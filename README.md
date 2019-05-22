@@ -128,6 +128,69 @@ They are:
 3.	Use pre trained yolo weights.
 4.	Text file containing class names.
 
+
+
+
+> Written with [StackEdit](https://stackedit.io/).
+ # Yolo with Surround AI
+ From the above we can say that yolo used to provide object detection in images. In this we going to explain the working of yolo in surround with examples.
+Using this object detection in image we can predict the traffic of an area and we can calculate the number of people in the region for providing better service.
+# Flow chart of Yolo working in surround
+![Flow chart](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/yolo_flow_chart_Diagram.png)
+ 
+# Prerequisites
+1. **Numpy**
+2. **OpenCV**
+3. **Clone** the repo of surround with yolo in git hub. [click here](https://github.com/surround-deakin-team/YoloImplementation)
+4. **Predefined weight** [download](https://pjreddie.com/media/files/yolov3.weights)
+## Install Numpy
+**Windows**
+>  pip3 install  numpy
+
+**MAC**
+> pip3 install  numpy
+
+## Install openCV
+**Windows**
+>  pip3 install  openCV
+
+**MAC**
+> pip3 install openCV
+
+## Clone the repo of surround
+1. Go to the surround repository of yolo [click here](https://github.com/surround-deakin-team/YoloImplementation%29)
+![Clone_repo_yolo](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/Clone_surround_repo.png)
+2. Click the clone button and copy the url.
+**Use git bash for cloning**
+> **git clone** _<paste url of the repository using shift+insert key or right click>_
+[click here ](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) to know more about cloning in Git.
+
+## Install Predefined weights
+Change the directory to the project folder
+**Windows** 
+>  cd   <_set path to project folder_>
+>  curl _https://pjreddie.com/media/files/yolov3.weights_ -o yolov3.weights
+
+**MAC**
+>  cd   <_set path to project folder_>
+>  curl _https://pjreddie.com/media/files/yolov3.weights_ -o yolov3.weights
+
+**Note:** _ Make sure the name of the yolov3.weights is similar to the weight file in yolo project._
+## How to run the code to detect objects in image 
+After the above steps change the directory to project directory.
+
+**Windows:** 
+>  python -m surroundyolo
+
+**MAC Terminal:** 
+> python3 surroundyolo.py
+
+A new window will open with objects detected in an image.
+![Object_detected](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/object-detection.jpg)
+
+Press any key to close the window.
+
+
 **Sample Logo:**
 
 ![Surround logo](https://github.com/sundararaman9608/sundararaman.github.io/blob/surround/logo.adobe.png)

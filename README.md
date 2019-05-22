@@ -127,11 +127,6 @@ They are:
 2.	Config file of Yolo.
 3.	Use pre trained yolo weights.
 4.	Text file containing class names.
-
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
  # Yolo with Surround AI
  From the above we can say that yolo used to provide object detection in images. In this we going to explain the working of yolo in surround with examples.
 Using this object detection in image we can predict the traffic of an area and we can calculate the number of people in the region for providing better service.

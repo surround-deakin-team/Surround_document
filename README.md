@@ -105,11 +105,16 @@ To install surround in linuxfirstle ensure you download the python and   in linu
 
 1.) open Terminal in linux and type python3.
 
-
+![ensuring python](https://user-images.githubusercontent.com/48539509/58250571-0d6f8900-7da5-11e9-84e1-07ffe983fe80.PNG)
 
 and then type exit() to come out from the environment of python.
 
 2.) Type pip3 install surround. and to ensure type surround-h.
+
+![collecting surround in linux](https://user-images.githubusercontent.com/48539509/58250578-119ba680-7da5-11e9-9e4e-45d82d30b19a.PNG)
+
+
+![installed successfully in linux](https://user-images.githubusercontent.com/48539509/58250587-16605a80-7da5-11e9-9a98-b181f0371756.PNG)
 
 
 # Working of Surround:

@@ -99,6 +99,18 @@ To install surround in mac follow first three steps similar as windows that are 
 
 ![mac insatll](https://user-images.githubusercontent.com/48539509/57827784-1e8c2900-77ec-11e9-88fc-b32b0667f5a3.png)
 
+## Linux:-
+
+To install surround in linuxfirstle ensure you download the python and   in linux pip3 comes automatically. 
+
+1.) open Terminal in linux and type python3.
+
+
+
+and then type exit() to come out from the environment of python.
+
+2.) Type pip3 install surround. and to ensure type surround-h.
+
 
 # Working of Surround:
 ****

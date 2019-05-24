@@ -3,6 +3,16 @@ For better understanidng of surround
 # Surround AI
 Surround AI  is the python framework which is designed for flexible usage in Artificial Intelligence(AI). It is designed to support data scientist in their progress. Each and every scientist use different algorithm to solve different problems. There are no standard way for them to analyse altogether in a single module. To provide a standard solution surround frame work is built. Evolution of machine learning pipeline  is not possible without re-constructing the coding whereas surround package will provide a pipeline without any alterations.
 
+
+**There were problems that where addressed at Applied Artificial Intelligence Institute:**
+
+1. There were same changes required to refactor code again and again, which was written by data scientist to make it ready for implement. That means there was no standard script, no proper way to handle configuration and no standard pipeline architecture.
+2. The models which are existing are serving the model rather than end-to-end solution. The model needs to me clubbed with multiple models and glue code to tie these models together.
+
+3. Existing models don’t allow for the evolution of a machine learning pipeline without re-engineering the solution. Ex: using a cloud API for the first release before training a custom model much later.
+
+4. Code was commonly being commented out to run other branches.
+
 # Why surround?
 * It is designed to support data scientist in their progress.
 *  Each and every scientist use different algorithm to solve different problems. There are no standard way for them to analyse altogether in a single module.
@@ -17,7 +27,9 @@ using glue codes for their research.
 Using cloud API for training models for image recognition.
 Developing a pipeline for the surround module using machine learning algorithms.
 # Surround Working
+
 # Installation guide:
+
 ## Windows
 1.) Install the python 3.7.3 in the system  by following the provided link that is given below [https://www.python.org/downloads/](https://www.python.org/downloads/)	
 
@@ -87,22 +99,54 @@ To install surround in mac follow first three steps similar as windows that are 
 
 ![mac insatll](https://user-images.githubusercontent.com/48539509/57827784-1e8c2900-77ec-11e9-88fc-b32b0667f5a3.png)
 
-# How to create a project
-After installation of surround using pip3
-* **Type** surround -h
-* You can see list of help option in surround with **commands** 
+## Linux:-
 
-![Surround_help](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/Surround%20help1.PNG)
+To install surround in linuxfirstle ensure you download the python and   in linux pip3 comes automatically. 
 
-## create a project
-* **Type** surround init
-* Enter the project name and enter the purpose of the project
+1.) open Terminal in linux and type python3.
 
-![Surround_init](https://github.com/sundararaman9608/sundararaman.github.io/blob/surround/project_created.PNG)
+![ensuring python](https://user-images.githubusercontent.com/48539509/58250571-0d6f8900-7da5-11e9-84e1-07ffe983fe80.PNG)
+
+and then type exit() to come out from the environment of python.
+
+2.) Type pip3 install surround. and to ensure type surround-h.
+
+![collecting surround in linux](https://user-images.githubusercontent.com/48539509/58250578-119ba680-7da5-11e9-9e4e-45d82d30b19a.PNG)
+
+
+![installed successfully in linux](https://user-images.githubusercontent.com/48539509/58250587-16605a80-7da5-11e9-9a98-b181f0371756.PNG)
+
+
+# Working of Surround:
+****
+**_Pre-created files:_**
+
+There will be some files created as you install surround. Some default files that are generated are listed as below:
+
+**_Creating New File:_**
+
+To create a new file for surround can be explained in few simple steps:
+
+**Step 1:** Just jump to “Command Prompt” after successful installation of surround into system, move to your choose surround directory and hit these commands.
+
 
 [**Note:** the project name should be lowercase.]
+![to create a new file for surround](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/step1.png)
 
-# Built in files
+**Step 2:** After performing “surround init” command it will ask for **name of project** and **what is the purpose of this project?**
+
+
+![providing project details](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/step2.png)
+
+
+**Step 3:** Now when user is done with creating project, user can go the respective directory where a folder with specified project name will be created. That folder will contain files like this:
+
+![created files](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/step3.png)
+
+**Step 4:** You can see that a folder name yolosample is created into this project. This folder contains some pre-created files that will look like this:
+![pre-generated files ](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/step4.png)
+
+## Built in files
 After creating a surround project. List of files are genrated as built in.
 They are:
 -  \_init\_
@@ -110,6 +154,18 @@ They are:
 - \_stages\_
 - Wrapper
 - config.yaml
+
+## **Understanding of Files and Folders:**
+
+There are mainly four files generated and those four files are as below:
+
+**_init_:** It contains initialization and path where the project will be execuited.
+**_main_:**  This file contains all the imported files and output is execuited through this.
+
+**_stages_:** In this file user can define one or more than one stages the user want to process for it. 
+
+**_wrapper_:** In this file functions are imported from stages and surround.
+
 
 # Sample for Surround using Yolo 9000:
 ## Yolo 9000
@@ -127,6 +183,64 @@ They are:
 2.	Config file of Yolo.
 3.	Use pre trained yolo weights.
 4.	Text file containing class names.
+ # Yolo with Surround AI
+ From the above we can say that yolo used to provide object detection in images. In this we going to explain the working of yolo in surround with examples.
+Using this object detection in image we can predict the traffic of an area and we can calculate the number of people in the region for providing better service.
+# Flow chart of Yolo working in surround
+![Flow chart](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/yolo_flow_chart_Diagram.png)
+ 
+# Prerequisites
+1. **Numpy**
+2. **OpenCV**
+3. **Clone** the repo of surround with yolo in git hub. [click here](https://github.com/surround-deakin-team/YoloImplementation)
+4. **Predefined weight** [download](https://pjreddie.com/media/files/yolov3.weights)
+## Install Numpy
+**Windows**
+>  pip3 install  numpy
+
+**MAC**
+> pip3 install  numpy
+
+## Install openCV
+**Windows**
+>  pip3 install  openCV
+
+**MAC**
+> pip3 install openCV
+
+## Clone the repo of surround
+1. Go to the surround repository of yolo [click here](https://github.com/surround-deakin-team/YoloImplementation%29)
+![Clone_repo_yolo](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/Clone_surround_repo.png)
+2. Click the clone button and copy the url.
+**Use git bash for cloning**
+> **git clone** _<paste url of the repository using shift+insert key or right click>_
+[click here ](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) to know more about cloning in Git.
+
+## Install Predefined weights
+Change the directory to the project folder
+**Windows** 
+>  cd   <_set path to project folder_>
+>  curl _https://pjreddie.com/media/files/yolov3.weights_ -o yolov3.weights
+
+**MAC**
+>  cd   <_set path to project folder_>
+>  curl _https://pjreddie.com/media/files/yolov3.weights_ -o yolov3.weights
+
+**Note:** _ Make sure the name of the yolov3.weights is similar to the weight file in yolo project._
+## How to run the code to detect objects in image 
+After the above steps change the directory to project directory.
+
+**Windows:** 
+>  python -m surroundyolo
+
+**MAC Terminal:** 
+> python3 surroundyolo.py
+
+A new window will open with objects detected in an image.
+![Object_detected](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/object-detection.jpg)
+
+Press any key to close the window.
+
 
 **Sample Logo:**
 

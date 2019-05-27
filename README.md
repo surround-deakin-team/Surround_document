@@ -146,6 +146,21 @@ To create a new file for surround can be explained in few simple steps:
 **Step 4:** You can see that a folder name yolosample is created into this project. This folder contains some pre-created files that will look like this:
 ![pre-generated files ](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/step4.png)
 
+1. **.surround** _folder_ will have  config.yaml file which is the main file to deploy your project.
+2. **data** _folder_ is used to store the datasets or other input files for the project.
+3.  **docs** folder is to store your document of your project.
+4. **models** _folder_ used to store the predefined  models for the analysis.
+5.  **notebooks** folder is used to store your scrap or rough coding or flowchart of the project.
+6. **output** _folder_ used to store the output of the processed input file from data folder.
+7. **scripts** folder used to store your code for the project
+8. **spikes** folder will store the output of spikes tool in the project.
+9. **tests** folder is used to store the tested file of the project.
+10. **Dockerfile**  is used to tell which environment to use and which command should be used to run the file.
+11. **dodo** _file_ will have configuration file. It will run the main task in docker file container for the production.
+12. **README.md**  _file_ is used to provide the information of the project. It also explains how the input is processed for output in a project.
+13. **requirements** text file shows the surround project neccessaries.
+14. **created_project_name** is your created project folder with your project name.
+
 ## Built in files
 After creating a surround project. List of files are genrated as built in.
 They are:
@@ -155,17 +170,13 @@ They are:
 - Wrapper
 - config.yaml
 
-## **Understanding of Files and Folders:**
+**_init_:** It contains initialization and path where the project will be executed.
 
-There are mainly four files generated and those four files are as below:
+**_main_:**  This file contains all the imported files and classes required for the project.
 
-**_init_:** It contains initialization and path where the project will be execuited.
-**_main_:**  This file contains all the imported files and output is execuited through this.
+**_stages_:** In this file user can define one or more than one stages to process for your project. 
 
-**_stages_:** In this file user can define one or more than one stages the user want to process for it. 
-
-**_wrapper_:** In this file functions are imported from stages and surround.
-
+**_wrapper_:** It conatains pipeline of surround which will interfere with other containers from input to processed output.
 
 # Sample for Surround using Yolo 9000:
 ## Yolo 9000

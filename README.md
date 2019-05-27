@@ -306,7 +306,7 @@ Do restart your terminal and if you still get the same error please do restart y
 ![FAQ4 soln](https://github.com/surround-deakin-team/Surround_document/blob/master/Collection/Query4%20soln.jpg)
 
 # Conclusion:
-Surround is under development which as goals to satisfy the needs of data scientists. It completely turns the view of analysing in machine learning and other concepts of AI(Artificial Intelligence).
+Surround is under development which as goals to satisfy the needs of data scientists. It completely turns the view of analysing in machine learning and other concepts of AI(Artificial Intelligence). The sample yolo in surround shows the working of object detection in image and video. The future scope is to identify the number plate in vehicle using the google cloud api.
 
 
 
